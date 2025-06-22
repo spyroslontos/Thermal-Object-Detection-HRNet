@@ -35,16 +35,18 @@ Google Drive/
 ├── train/                # Training dataset
 ├── val/                  # Validation dataset
 ├── video/                # Test dataset
-├── 1. Dataset Processing.ipynb
-└── 2. Main.ipynb
+├── 1_Dataset_Processing.ipynb
+└── 2_Main.ipynb
 ```
 
 ## Notebooks
 
-| Notebook | Description | Colab |
-|----------|-------------|-------|
-| Dataset Processing | Dataset processing and annotation preparation | [![Open In Colab](https://img.shields.io/badge/Colab-Dataset_Processing-blue?logo=googlecolab)](https://drive.google.com/file/d/1lFaXhiHBjw6cAftCSOpZz2wS4-LLqMnR/view?usp=sharing) |
-| Main | Training, visualization, and testing | [![Open In Colab](https://img.shields.io/badge/Colab-Main-blue?logo=googlecolab)](https://drive.google.com/file/d/1B0tNEQCMolnyAIL53oj0NXHQtsg3nzVx/view?usp=sharing) |
+| Notebook | Description | GitHub |
+|----------|-------------|--------|
+| Dataset Processing | Dataset processing and annotation preparation | [![Open In GitHub](https://img.shields.io/badge/GitHub-Dataset_Processing-green?logo=github)](https://github.com/Spyroslon/Thermal-Object-Detection-HRNet/blob/main/1_Dataset_Processing.ipynb) |
+| Main | Training, visualization, and testing | [![Open In GitHub](https://img.shields.io/badge/GitHub-Main-green?logo=github)](https://github.com/Spyroslon/Thermal-Object-Detection-HRNet/blob/main/2_Main.ipynb) |
+
+**Note**: For the full pipeline with data, use the Google Drive folder linked above.
 
 ---
 
