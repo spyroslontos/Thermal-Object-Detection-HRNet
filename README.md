@@ -12,26 +12,32 @@ The research demonstrates that HRNet backbones can significantly improve thermal
 
 ## Overview
 
-- **Model**: Faster R-CNN with HRNet backbones
-- **Dataset**: FLIR ADAS thermal dataset (cars, people, bicycles)
-- **Framework**: MMDetection
-- **Pre-training**: COCO 2017 dataset
-- **Performance**: 7% improvement over ResNet-50-FPN baseline
-- **Best Configuration**: HRNet-W40
+- **Model**: Faster R-CNN with HRNet backbones  
+- **Dataset**: FLIR ADAS thermal dataset (cars, people, bicycles)  
+- **Framework**: MMDetection  
+- **Pre-training**: COCO 2017 dataset  
+- **Performance**: 7% improvement over ResNet-50-FPN baseline  
+- **Best Configuration**: HRNet-W40  
 
-## Quick Start
+---
 
-1. Download the entire folder from [Google Drive](https://drive.google.com/drive/folders/1dkl-PlM4f1LQPTWcBINHlPtJxvYcHSEw?usp=sharing) (3.40 GB)
-2. Upload to your personal Google Drive
-3. Mount your Google Drive in Google Colab
-4. Run the notebooks
+## Data & Models
+
+Due to storage limitations, trained models and datasets are no longer hosted.  
+This repository includes the full codebase and notebooks, but you will need to provide your own dataset and train models locally.
+
+- **Dataset**: Download the FLIR ADAS thermal dataset from the [official site](https://www.flir.com/oem/adas/adas-dataset-form/).  
+- **Pre-trained backbones**: HRNet and ResNet weights can be obtained from the [MMDetection model zoo](https://github.com/open-mmlab/mmdetection/blob/main/docs/en/model_zoo.md).  
+- **Trained models**: Not distributed anymore — please retrain using the provided configs and scripts.  
+
+---
 
 ## Project Structure
 
 ```text
-Google Drive/
+project_root/
 ├── mmdetection/          # MMDetection framework
-├── models/               # 4 trained models with logs and configs
+├── models/               # Placeholder for trained models (if you train locally)
 ├── train/                # Training dataset
 ├── val/                  # Validation dataset
 ├── video/                # Test dataset
@@ -46,7 +52,7 @@ Google Drive/
 | Dataset Processing | Dataset processing and annotation preparation | [![Open In GitHub](https://img.shields.io/badge/GitHub-Dataset_Processing-green?logo=github)](https://github.com/Spyroslon/Thermal-Object-Detection-HRNet/blob/main/1_Dataset_Processing.ipynb) |
 | Main | Training, visualization, and testing | [![Open In GitHub](https://img.shields.io/badge/GitHub-Main-green?logo=github)](https://github.com/Spyroslon/Thermal-Object-Detection-HRNet/blob/main/2_Main.ipynb) |
 
-**Note**: For the full pipeline with data, use the Google Drive folder linked above.
+**Note**: The structure above mirrors the original Colab/Drive setup. You can adapt paths to your local environment as needed.
 
 ---
 
